@@ -4,3 +4,15 @@ html {
   font-family: sans-serif;
   touch-action: manipulation;
 }
+
+header {
+  background-color: #ffdddd;
+}
+
+nav {
+  background-color: #ddffdd;
+}
+
+footer {
+  background-color: #ddddff;
+}
