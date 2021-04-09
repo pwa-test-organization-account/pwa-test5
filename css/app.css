@@ -8,6 +8,10 @@ html {
 header {
   background-color: #ffdddd;
 }
+header h1 {
+  font-size: 24px;
+  padding: 10px 0;
+}
 
 nav {
   background-color: #ddffdd;
