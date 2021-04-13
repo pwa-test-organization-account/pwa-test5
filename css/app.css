@@ -35,5 +35,12 @@ footer {
 }
 .itemName {
 }
-
+.itemPicture {
+  width: 320px;
+  height: 320px;
+  background-color: #ccc;
+  margin: 3px auto;
+  text-align: center;
+  line-height: 320px;
+}
 
