@@ -27,12 +27,18 @@ footer {
   border: solid 1px #444;
   margin: 3px auto;
 }
-.itemName:before {
-  content: "商品名：";
+
+.itemName:before,
+.itemDetail:before,
+.itemPrice:before {
   font-size: 80%;
   font-weight: bold;
   vertical-align: bottom;
 }
+.itemName:before { content: "商品名："; }
+.itemDetail:before { content: "商品説明："; }
+.itemPrice:before { content: "価格："; }
+
 .itemName {
 }
 .itemPicture {
