@@ -49,4 +49,16 @@ footer {
   text-align: center;
   line-height: 320px;
 }
+.itemDetail {
+}
+.itemPrice {
+  color: red;
+}
+
+.itemBox button {
+  border: ridge 2px #888;
+  background-color: #ccc;
+}
+
+
 
