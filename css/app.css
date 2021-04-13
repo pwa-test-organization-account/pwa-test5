@@ -24,8 +24,9 @@ footer {
 
 .itemBox {
   width: 400px;
-  border: solid 1px #444;
   margin: 3px auto;
+  padding: 3px;
+  border: solid 1px #444;
 }
 
 .itemName:before,
@@ -44,8 +45,8 @@ footer {
 .itemPicture {
   width: 320px;
   height: 320px;
-  background-color: #ccc;
   margin: 3px auto;
+  background-color: #ccc;
   text-align: center;
   line-height: 320px;
 }
@@ -56,6 +57,9 @@ footer {
 }
 
 .itemBox button {
+  display: block;
+  margin: 3px auto;
+  padding: 5px;
   border: ridge 2px #888;
   background-color: #ccc;
 }
